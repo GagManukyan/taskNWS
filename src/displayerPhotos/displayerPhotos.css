@@ -1,0 +1,26 @@
+.img{
+    width: 126px;
+    height: 126px;
+    border-radius: 23%;
+    margin: 4px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.img:hover{
+    box-shadow: 1px 4px 1px 1px blue;
+}
+.displayerPhotos{
+    display: grid;
+    grid-template-columns: 220px 220px 220px 220px 220px;
+    grid-template-rows: 164px 164px 164px;
+    grid-column-gap: 6px;
+    grid-row-gap: 10px;
+    justify-content: center;
+}
+.butt{
+    width: 120px;
+    height: 35px;
+    background-color: rgb(1, 110, 138);
+    color: aliceblue;
+    cursor: pointer;
+}
